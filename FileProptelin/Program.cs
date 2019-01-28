@@ -16,8 +16,8 @@ namespace FileProptelin
 
         static void Main(string[] args)
         {
-            CommandLine.Parser.Default.ParseArguments<Options>(args)
-                .WithParsed<Options>(o =>
+            Parser.Default.ParseArguments<Options>(args)
+                .WithParsed(o =>
                 {
                     var creationTime = System.IO.File.GetCreationTime(o.FilePath);
 

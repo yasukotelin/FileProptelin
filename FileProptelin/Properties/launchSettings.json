@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileProptelin": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}
