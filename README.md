@@ -1,0 +1,2 @@
+# FileProptelin
+Windowsのファイルプロパティを操作するCLIツール
